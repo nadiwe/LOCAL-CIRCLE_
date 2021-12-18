@@ -1,1 +1,1 @@
-# DATA_VIS
+We chose to focus on the climate factor of CO2-emissions of an area that is relatable to the user. Therefor our aim was to narrow the analysed space down to a scale that the user can find himself in a familiar surrounding. Since the project is presented in Zurich, we chose a 4m2 area around the Toni as the reference and displayed environmental properties which are then compared to an additional space and put in relation to each other.
