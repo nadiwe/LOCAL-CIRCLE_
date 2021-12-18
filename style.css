@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "GT-Walsheim-Pro-Trial-Condensed-Regular";
+    src: url("./Fonts/GT-Walsheim-Pro-Trial-Condensed-Regular.otf") format("woff");
+}
+@font-face {
+    font-family: "UniversLTStd";
+    src: url("./Fonts/UniversLTStd.otf") format("woff");
+}
+body{
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+
+}
+h1{
+    padding:0 2vw ;
+    margin: 0;
+    font-size: 7vw;
+    font-family: GT-Walsheim-Pro-Trial-Condensed-Regular;
+}
+h2{
+    background-color: #000000;
+    margin: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-size: 3vw;
+    font-family: GT-Walsheim-Pro-Trial-Condensed-Regular;
+}
+h3{
+    margin: 1vw;
+    padding-left: 1vw;
+    font-family: GT-Walsheim-Pro-Trial-Condensed-Regular;
+    font-size: 1vw;   
+}
+h4{
+  
+}
+.font{
+    font-family: 'UniversLTStd';
+    font-size: 1vw;  
+    margin: 2vw;;
+}
+
+
+
+
+.boxdesign{
+    position: fixed;
+    z-index: 2;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 13px 26px 0px rgba(0, 0, 0, 0.25);
+} 
+
+.buttondesign{
+    z-index: 2;
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+box-shadow: 13px 10px 0px #000000;
+} 
+
+#data_box{
+width: 17vw; 
+height: auto;
+left: 2vw;
+top: 4vh;
+}
+
+#legende{
+    width: auto; 
+    height: auto;
+    right: 2vw;
+    top: 25vh;
+} 
+
+#logo{
+    position: absolute;
+    right: 2vw;
+   top: 4vh;
+    height: auto;
+    width: auto; 
+}
+
+#population1{
+height: 4vh;
+background-color: #3B7AF4;
+
+border: 2px solid #000000;
+}
+
+#population2{
+    height: 4vh;
+    background-color:#FEFBF0;
+    border: 2px solid #000000;
+    }
+
+
+
+
+#button_question {
+    position: absolute;
+    padding: 0;
+    right: 2vw;
+    bottom: 2vh;
+    border-radius : 2vw ;
+
+}
+
+
+#city1{
+    padding-right: 10vw;
+}
+#city2{
+    padding-left: 10vw;
+}
+#button_change2,#forest_scenario,#bio_analysis{
+    margin:0 1vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Menu{
+    z-index: 2;
+    position: absolute;
+    bottom: 5vh;
+    height:50px;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+}
+
+#Menu h4{
+    padding: 2vw;
+    margin: 0;
+    font-family: GT-Walsheim-Pro-Trial-Condensed-Regular;
+    font-size: 1vw;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#zenter{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px; 
+}
+
+
+
+
+
+
+#map { 
+    position: relative;
+      height: 100vh; 
+      width: 100vw;
+      z-index: 1;
+      background-color: blanchedalmond;
+  } 
